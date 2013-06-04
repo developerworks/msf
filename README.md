@@ -8,8 +8,7 @@ Rebar 注意事项
 1. BUG
 	https://github.com/basho/rebar/issues/213
 2. 仔细阅读Getting Started, 有版本问题
-	https://github.com/basho/rebar/wiki/Getting-startedi
-
+	https://github.com/basho/rebar/wiki/Getting-started
 
 Erlang 15B02
 
