@@ -6,7 +6,7 @@ compile: deps
 	rebar compile
 
 deps:
-	test -d deps || ./rebar get-deps
+	test -d deps || rebar get-deps
 
 clean:
 	rebar clean
@@ -18,3 +18,6 @@ test:
 	rebar compile eunit
 docs:
 	rebar doc
+
+gen:
+	rebar generate
