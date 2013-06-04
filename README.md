@@ -1,9 +1,12 @@
 最新Erlang发布包下载地址
 https://www.erlang-solutions.com/downloads/download-erlang-otp
 
-
 Rebar注意事项
 -------------
+
+1. BUG	https://github.com/basho/rebar/issues/213
+2. 仔细阅读Getting Started,有版本问题 https://github.com/basho/rebar/wiki/Getting-started
+
 
 1. BUG	https://github.com/basho/rebar/issues/213
 2. 仔细阅读Getting Started,有版本问题 https://github.com/basho/rebar/wiki/Getting-started
@@ -31,6 +34,7 @@ Shell脚本
 mkdir msf
 cd msf
 wget http://cloud.github.com/downloads/basho/rebar/rebar && chmod u+x rebar
+<<<<<<< HEAD
 wget https://raw.github.com/developerworks/msf/master/rebar.config
 rebar create-app appid=msf
 mkdir rel
@@ -41,8 +45,6 @@ rebar get-deps
 rebar compile
 rebar generate
 ```
-
-
 
 
 
